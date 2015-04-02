@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<title>Magic Towers</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="slider/jquery.ad-gallery.css">
+		
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="slider/jquery.ad-gallery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var galleries = $('#art').adGallery({effect: 'fade'});
+				var galleries_s = $('#screensh').adGallery({effect: 'fade'});
+				$('.scrnbtn').on('click', function(){
+					$('#art').addClass('hidden');
+					$('#screensh').removeClass('hidden');
+				});
+				$('.artbtn').on('click', function(){
+					$('#art').removeClass('hidden');
+					$('#screensh').addClass('hidden');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="slider_bg">
+			<div class="topofsite">
+				<div class="row">
+					<div class="right_part">
+						<div class="logo">
+							<a href="#">
+								<img src="img/logo.png">
+							</a>
+						</div>
+						<div class="player">
+							<iframe width="517" height="313" src="https://www.youtube.com/embed/KuN2MHDz17M" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="second_part">
+							<h1>The Game</h1>
+							<p>Magic Towers is a free-to-play mobile game with an innovative spell-casting system set in a fantasy world of warring mages.  The game features real-time multiplayer tactical battles, city-building and strategy elements. Magic Towers provides a fresh blend of genres and new features combined with tried-and-true game mechanics.</p>
+							<p>Magic Towers is cross-platform, so you can play with all your friends, regardless of what kind of smartphone or tablet you have.</p>
+							<p>In the game you can battle both human and AI players, develop your home base (or “Shard”) just how you like it, build and upgrade beautifully-designed buildings and strong soldiers, and learn over 25 different powerful spells.</p>
+							<ul class="stores">
+								<li><img src="img/app_store.png"></li>
+								<li><img src="img/google_play.png"></li>
+								<li><img src="img/windows_store.png"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="clr"></div>
+					<div class="slider">
+						<div id="art" class="ad-gallery hidden">
+							<div class="scrnbtn">Screenshots</div>
+							<div class="artbtn active">Art</div>
+						  <div class="ad-image-wrapper">
+						  </div>
+						  <div class="ad-controls">
+						  </div>
+						  <div class="ad-nav">
+							<div class="ad-thumbs">
+							  <ul class="ad-thumb-list">
+								<li><a href="img/slider/art/1.png"><img src="img/slider/art_thumbs/1_t.png" class="image0"></a>
+								<li><a href="img/slider/art/2.png"><img src="img/slider/art_thumbs/2_t.png" class="image1"></a>
+								<li><a href="img/slider/art/3.png"><img src="img/slider/art_thumbs/3_t.png" class="image2"></a>
+								<li><a href="img/slider/art/4.png"><img src="img/slider/art_thumbs/4_t.png" class="image3"></a>
+								<li><a href="img/slider/art/5.png"><img src="img/slider/art_thumbs/5_t.png" class="image4"></a>
+								<li><a href="img/slider/art/6.png"><img src="img/slider/art_thumbs/6_t.png" class="image5"></a>
+								<li><a href="img/slider/art/7.png"><img src="img/slider/art_thumbs/7_t.png" class="image6"></a>
+								<li><a href="img/slider/art/8.png"><img src="img/slider/art_thumbs/8_t.png" class="image7"></a>
+								<li><a href="img/slider/art/9.png"><img src="img/slider/art_thumbs/9_t.png" class="image8"></a>
+								<li><a href="img/slider/art/10.png"><img src="img/slider/art_thumbs/10_t.png" class="image9"></a>
+								<li><a href="img/slider/art/11.png"><img src="img/slider/art_thumbs/11_t.png" class="image10"></a>
+								<li><a href="img/slider/art/12.png"><img src="img/slider/art_thumbs/12_t.png" class="image11"></a>
+								<li><a href="img/slider/art/13.png"><img src="img/slider/art_thumbs/13_t.png" class="image12"></a>
+								<li><a href="img/slider/art/14.png"><img src="img/slider/art_thumbs/14_t.png" class="image13"></a>
+								<li><a href="img/slider/art/15.png"><img src="img/slider/art_thumbs/15_t.png" class="image14"></a>
+								<li><a href="img/slider/art/16.png"><img src="img/slider/art_thumbs/16_t.png" class="image15"></a>
+								<li><a href="img/slider/art/17.png"><img src="img/slider/art_thumbs/17_t.png" class="image16"></a>
+								<li><a href="img/slider/art/18.png"><img src="img/slider/art_thumbs/18_t.png" class="image17"></a>
+								<li><a href="img/slider/art/19.png"><img src="img/slider/art_thumbs/19_t.png" class="image18"></a>
+								<li><a href="img/slider/art/20.png"><img src="img/slider/art_thumbs/20_t.png" class="image19"></a>
+								<li><a href="img/slider/art/21.png"><img src="img/slider/art_thumbs/21_t.png" class="image20"></a>
+								</li>
+							  </ul>
+							</div>
+						  </div>
+						</div>
+						<div id="screensh" class="ad-gallery">
+							<div class="scrnbtn active">Screenshots</div>
+							<div class="artbtn">Art</div>
+						  <div class="ad-image-wrapper">
+						  </div>
+						  <div class="ad-controls">
+						  </div>
+						  <div class="ad-nav">
+							<div class="ad-thumbs">
+							  <ul class="ad-thumb-list">
+								<li><a href="img/slider/screenshots/1.png"><img src="img/slider/screenshots_thumbs/1_t.png" class="image0"></a>
+								<li><a href="img/slider/screenshots/2.png"><img src="img/slider/screenshots_thumbs/2_t.png" class="image1"></a>
+								<li><a href="img/slider/screenshots/3.png"><img src="img/slider/screenshots_thumbs/3_t.png" class="image2"></a>
+								<li><a href="img/slider/screenshots/4.png"><img src="img/slider/screenshots_thumbs/4_t.png" class="image3"></a>
+								<li><a href="img/slider/screenshots/5.png"><img src="img/slider/screenshots_thumbs/5_t.png" class="image4"></a>
+								<li><a href="img/slider/screenshots/6.png"><img src="img/slider/screenshots_thumbs/6_t.png" class="image5"></a>
+								<li><a href="img/slider/screenshots/7.png"><img src="img/slider/screenshots_thumbs/7_t.png" class="image6"></a>
+								<li><a href="img/slider/screenshots/8.png"><img src="img/slider/screenshots_thumbs/8_t.png" class="image7"></a>
+								</li>
+							  </ul>
+							</div>
+						  </div>
+						</div>
+						<a href="#" class="download"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="row">
+					<span>© Magic Towers 2015</span>
+					<div class="middlef">
+						<a href="http://devilsdozengames.com">devilsdozengames.com</a>
+						<span>info@devilsdozengames.com</span>
+					</div>
+					<div class="soc_bar">
+						<a href="https://www.facebook.com/pages/Devils-Dozen-Games/310214315846051?sk=timeline" class="facebook" target="_blank"></a>
+						<a href="https://twitter.com/DDozenGames" class="twitter" target="_blank"></a>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/* start */
+.row:after {clear:both;display:block;height:0;content:"";}
+.row {width:1200px;padding:0 10px;margin:0 auto;position:relative;}
+.clr {height:0;clear:both;}
+@font-face {font-family: Narkisim;srс: url('narkisim.ttf');font-weight: 400;}
+
+body {background:#000 url('img/bgtop.jpg') center top no-repeat;}
+.slider_bg {  background: url('img/slider_bg.jpg') center 1500px no-repeat;background-size: 2000px;}
+.topofsite {/* height:1570px; */min-width: 1220px;background:url('img/topofsite.png') center 50px no-repeat;}
+.right_part {width:625px;float:right;}
+.right_part .logo {margin:100px 0 0 55px;}
+.right_part .player {width:601px;height:396px;box-sizing:border-box;padding:42px 43px;margin-left: 30px;background:url('img/player_bg.png') center top no-repeat;}
+.right_part .second_part {margin-top:148px;}
+.right_part .second_part h1 {font-family: Narkisim;font-size:50px;color:#e5f3ff;text-align:center;text-transform:uppercase;text-shadow: 1px 2px 0px #3f516c;/* margin:0 0 25px; */}
+.right_part .second_part p {font-family: Narkisim;font-size:27px;color:#e5f3ff;text-shadow: 1px 2px 0px #3f516c;/* margin:0 0 25px; */line-height: 35px;}
+.right_part ul.stores {text-align:center;}
+.right_part ul.stores li {display:inline-block;margin:10px 10px 0 0;list-style:none;}
+.right_part ul.stores li img {max-height: 70px;}
+.slider {margin-top:130px;}
+.slider .ad-controls,
+.slider .ad-slideshow-controls {display:none;}
+.scrnbtn {width:165px;text-align:center;background:#202020;border:solid 5px #3b3b3b;font-family: Narkisim;font-size:27px;text-shadow: 1px 2px 0px #3f516c;color:#adadad;padding:5px 0;box-shadow: 0 0 28px 5px #000;position:absolute;bottom:202px;left:350px;z-index:2200;}
+.artbtn {width:165px;text-align:center;background:#202020;border:solid 5px #3b3b3b;font-family: Narkisim;font-size:27px;text-shadow: 1px 2px 0px #3f516c;color:#adadad;padding:5px 0;box-shadow: 0 0 28px 5px #000;position:absolute;bottom:202px;right:345px;z-index:2200;}
+.scrnbtn.active,
+.scrnbtn:hover {border: 5px solid #4f70f4;box-shadow: 0 0 28px 5px #49abae;cursor:pointer;}
+.artbtn.active,
+.artbtn:hover {border: 5px solid #4f70f4;box-shadow: 0 0 28px 5px #49abae;cursor:pointer;}
+.hidden {position:absolute!important; left:-99999px;}
+.download {width:400px;height: 105px;background:url('img/download.png') 0 0 no-repeat;display:block;margin:50px auto;background-size:cover;}
+.download:hover {background-position: 0 -108px;}
+.download:active {background-position:0 -216px;}
+.footer {height:177px;background:url('img/footer.jpg') center bottom no-repeat;box-sizing: border-box;padding-top: 104px;}
+.footer > .row > span {color:#160603;font-family: Narkisim;font-size: 18px;float:left;}
+.footer .middlef {float:left;margin-left: 310px;}
+.footer .middlef span {color:#160603;font-family: Narkisim;font-size: 18px;}
+.footer .middlef a {color:#160603;font-family: Narkisim;font-size: 18px;text-decoration:none;margin-right: 32px;}
+.footer .middlef a:hover {text-decoration:underline;}
+.footer .soc_bar {float:right;  margin-top: -10px;}
+.footer .soc_bar a {text-decoration:none;display:block;float:right;  margin-left: 45px;}
+.footer .soc_bar a:hover {text-decoration:none;}
+.footer .soc_bar a.facebook {  height: 31px; width:20px;background:url('img/facebook.png') 0 0 no-repeat;}
+.footer .soc_bar a.facebook:hover {  background-position: 0 -35px;}
+.footer .soc_bar a.twitter {height: 33px;  width: 36px;background:url('img/twitter.png') 0 0 no-repeat;}
+.footer .soc_bar a.twitter:hover {  background-position: 0 -36px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
