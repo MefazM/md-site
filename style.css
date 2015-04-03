@@ -16,15 +16,15 @@ table {border-collapse: collapse;border-spacing: 0;}
 .clr {height:0;clear:both;}
 @font-face {font-family: Narkisim;srс: url('narkisim.ttf');font-weight: 400;}
 
-body {background:#000 url('img/bgtop.jpg') center top no-repeat;}
-.slider_bg {  background: url('img/slider_bg.jpg') center 1500px no-repeat;background-size: 2000px;}
+body {background:#000 url('img/bgtop.png') center top no-repeat;}
+.slider_bg {  background: url('img/slider_bg.png') center 1500px no-repeat;background-size: 2000px;}
 .topofsite {/* height:1570px; */min-width: 1220px;background:url('img/topofsite.png') center 50px no-repeat;}
 .right_part {width:625px;float:right;}
 .right_part .logo {margin:100px 0 0 55px;}
 .right_part .player {width:601px;height:396px;box-sizing:border-box;padding:42px 43px;margin-left: 30px;background:url('img/player_bg.png') center top no-repeat;}
 .right_part .second_part {margin-top:148px;}
 .right_part .second_part h1 {font-family: Narkisim;font-size:50px;color:#e5f3ff;text-align:center;text-transform:uppercase;text-shadow: 1px 2px 0px #3f516c;/* margin:0 0 25px; */}
-.right_part .second_part p {font-family: Narkisim;font-size:27px;color:#e5f3ff;text-shadow: 1px 2px 0px #3f516c;/* margin:0 0 25px; */line-height: 35px;}
+.right_part .second_part p {font-family: Narkisim;font-size:27px;color:#e5f3ff;text-shadow: 1px 2px 0px #3f516c;/* margin:0 0 25px; */line-height: 35px;text-align:justify;}
 .right_part ul.stores {text-align:center;}
 .right_part ul.stores li {display:inline-block;margin:10px 10px 0 0;list-style:none;}
 .right_part ul.stores li img {max-height: 70px;}
@@ -41,7 +41,7 @@ body {background:#000 url('img/bgtop.jpg') center top no-repeat;}
 .download {width:400px;height: 105px;background:url('img/download.png') 0 0 no-repeat;display:block;margin:50px auto;background-size:cover;}
 .download:hover {background-position: 0 -108px;}
 .download:active {background-position:0 -216px;}
-.footer {height:177px;background:url('img/footer.jpg') center bottom no-repeat;box-sizing: border-box;padding-top: 104px;}
+.footer {height:177px;background:url('img/footer.png') center bottom no-repeat;box-sizing: border-box;padding-top: 104px;}
 .footer > .row > span {color:#160603;font-family: Narkisim;font-size: 18px;float:left;}
 .footer .middlef {float:left;margin-left: 310px;}
 .footer .middlef span {color:#160603;font-family: Narkisim;font-size: 18px;}
